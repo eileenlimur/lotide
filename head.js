@@ -1,7 +1,7 @@
 const head = (array) => {
   let firstElement = array[0];
   return firstElement;
-}
+};
 
 const assertEqual = function(actual, expected) {
   const successMessage = `🏅🏅🏅Assertion Passed: ${actual} === ${expected}`;
