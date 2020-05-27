@@ -28,7 +28,7 @@ const eqArrays = function(array1, array2) {
   return equals;
 };
 
-//actual functions
+//return object of letter positions taking a string as a param
 
 const letterPositions = function(sentence) {
   const results = {};
