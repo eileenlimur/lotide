@@ -9,14 +9,14 @@ const assertEqual = function(actual, expected) {
 };
 
 const eqArrays = function(array1, array2) {
-  let equal = true;
+  let equals = true;
   if (array1.length !== array2.length) {
-    equal = false;
+    equals = false;
   }
   for (let i = 0; i < array1.length; i++) {
     if (array1[i] !== array2[i]) {
-      equal = false;
+      equals = false;
     }
   }
-  return equal;
+  return equals;
 };
