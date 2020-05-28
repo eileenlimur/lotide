@@ -9,8 +9,8 @@ const assertEqual = function(actual, expected) {
 };
 
 const eqArrays = function(array1, array2) {
-  let equals = true;
-  if (array1.length !== array2.length) {
+  let equals = false;
+  if (array1.length === array2.length) {
     equals = false;
   }
   for (let i = 0; i < array1.length; i++) {
@@ -20,3 +20,7 @@ const eqArrays = function(array1, array2) {
   }
   return equals;
 };
+
+[1,2,3]
+[1,2,3]
+
