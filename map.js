@@ -1,4 +1,4 @@
-//helper functions: assertion functions
+//assertion functions
 const assertArraysEqual = function(actual, expected) {
   const successMessage = `🏅🏅🏅Assertion Passed: ${actual} === ${expected}`;
   const failureMessage = `🛑🛑🛑Assertion Failed: ${actual} !== ${expected}`;
