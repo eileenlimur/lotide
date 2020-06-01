@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@peachesli/lotide",
   "version": "1.0.0",
-  "description": "Created for Lighthouse Labs Bootcamp",
+  "description": "Mini clone of lodash created during Lighthouse Labs bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
