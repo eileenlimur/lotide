@@ -1,0 +1,28 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "Created for Lighthouse Labs Bootcamp",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eileenlimur/lotide.git"
+  },
+  "author": "Eileen Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eileenlimur/lotide/issues"
+  },
+  "homepage": "https://github.com/eileenlimur/lotide#readme"
+}
