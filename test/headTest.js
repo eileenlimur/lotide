@@ -9,11 +9,3 @@ describe("#head", () => {
 		assert.strictEqual(head(['5']), '5');
 	});
 });
-
-
-// const assertEqual = require("../assertEqual");
-
-
-
-// assertEqual(head([5,6,7]), 5);
-// assertEqual(head(["Hello"]), "Hello");
