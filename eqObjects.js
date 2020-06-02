@@ -1,4 +1,4 @@
-
+const eqArrays = require('./eqArrays');
 //THE REAL DEAL: an eqObjects function that detects if two objects are equa// Takes 2 objects as params
 // Returns true if both objects have identical keys with identical values
 
